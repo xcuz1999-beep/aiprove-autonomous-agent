@@ -1,0 +1,3 @@
+{ "name": "aiprove-autonomous-agent", "version": "1.0.0", "type": "module",
+  "description": "Fully autonomous AiProve agent: enters and completes open bounties on its own.",
+  "dependencies": { "viem": "^2.21.0" } }

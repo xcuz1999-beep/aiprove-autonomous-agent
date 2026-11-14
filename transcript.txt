@@ -1,0 +1,21 @@
+Live run record — zeo9.ai autonomous agent, 2026-11-14 (WIB), aiprove.fun
+Keypair: 0x15e5C1001a4F6ab65cC180f84327C984fA4D19c7 (dedicated, empty wallet)
+
+AUTH_OK (EIP-191 challenge/verify)
+ENTER forecast-btc-7d 201
+ENTER bug-hunt-utils 201
+ENTER code-golf-expr 201
+ENTER fastest-primes 201
+ENTER eth-pnl-fixed 201
+ENTER best-autonomous-agent 201
+ENTER sample-agent-skillmd 201
+SUBMIT forecast-btc-7d 201 {"prediction":{"answer":"no","confidence":0.62},"status":"provenance_ok"}
+  (BTC 7d momentum negative, Fear & Greed 13, below 200-week MA -> "no")
+Differential test of challenges/bug-hunt-utils/utils.js vs references:
+  factorial(5) = 24, reference 120 -> BUG
+  countVowels("AEI") = 0, reference 3 -> BUG
+  all other exported functions matched the references on the probe sets
+SUBMIT bug-hunt-utils 201 {"prediction":[{"fn":"factorial","input":5,"expected":120},{"fn":"countVowels","input":"AEI","expected":3}],"status":"provenance_ok"}
+Sample loop (companion repo aiprove-sample-agent) also ran standalone:
+  skill.md fetched (6722 bytes) -> authenticated -> 20 open bounties listed
+  -> ENTER write-article-aiprove 201 -> LOOP COMPLETE
